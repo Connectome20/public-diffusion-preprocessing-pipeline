@@ -10,7 +10,7 @@ def denoise_commands(subject, base_dir, denoise_option):
     output_file = f"{output_dir}/{subject}_dwi.nii.gz"
     
     if denoise_option == "magnitude":
-        cmd = f"/your/project/directory/bids/code/preprocessing_dwi/noise_correct/rician_correct_mppca.sh -i {input_file} -o {output_file} -n 3"
+        cmd = f"/your/project/directory/bids/code/preprocessing_dwi/helpers/noise_correct/rician_correct_mppca.sh -i {input_file} -o {output_file} -n 3"
     elif denoise_option == "real":
         cmd = f"dwidenoise {input_file} {output_file} -force -nthreads 48"
     else:
