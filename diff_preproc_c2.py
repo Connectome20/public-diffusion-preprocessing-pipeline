@@ -1,9 +1,9 @@
 # Copyright 2026 Yixin Ma, Oakley Martin, Hong-Hsi Lee, and Susie Huang (MGH/Martinos Center)
 #
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
+# Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.
-
+#
+# With questions or issues, contact Oakley Martin at omartin3@mgh.harvard.edu
 # Most recent update: 5 May 2026
 
 import sys
