@@ -844,7 +844,7 @@ def append_all_commands_to_script():
     append_command_to_script(gnc_anat_cmd, base_dir, subject)
 
     # 11. recon-all
-    expertFile = "/your/project/directory/bids/code/preprocessing_dwi/recon/expertFile"
+    expertFile = "/your/project/directory/bids/code/preprocessing_dwi/helpers/recon/expertFile"
     fsInput = fsInput_entry.get("1.0", 'end-1c').strip()
     recon_all_cmd = f"export SUBJECTS_DIR={base_dir}; recon-all -subjid fs -i {fsInput} -all -hires -expert {expertFile}"
     append_command_to_script(recon_all_cmd, base_dir, subject)
