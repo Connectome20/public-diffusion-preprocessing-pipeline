@@ -88,8 +88,8 @@ Throughout these instructions, the script, and the helpers, you will see '/your/
 ### Main Script:
 
 Download *diff_preproc_c2.py* onto your machine, and save it to '/your/project/directory/bids/code/preprocessing_dwi/'. Then, make the following changes within the script:
-- Enter the big delta (variable 'big_delta') and little delta (variable 'little_delta') values that correspond to your diffusion sequences. 
-- The PA- and AP-volume indices are set to 9 and 10, respectively, for TopUp processing. These fields can be edited in the script (search for 'Default value is "9"') or at the bottom of the GUI itself.
+- Enter the diffusion times (variables 'diff_time_a' and 'diff_time_b') values that correspond to your diffusion sequences. By default, these values are '30' and '13'.
+- Enter the the PA- and AP-volume indices (search for 'Default value is "9"') for TopUp processing. By default, these values are set to '9' and '10' respectively. These fields can also be changed within the GUI.
 - Since the Siemens gradient coil coefficient file cannot be shared publicly, you must generate this file yourself and save it to '/your/project/directory/preprocessing_dwi/gradnonlinunwarp/coil_file/coeff.grad'.
 
 ### Helpers:
@@ -103,15 +103,15 @@ Download all of the lib files, and save them to '/your/project/directory/bids/co
 
 ### Configuration File (dcm2bids):
 
-Download *config.json*, and save it to '/your/project/directory/bids/code/preprocessing_dwi/dcm2bids/‘. Then, replace every instance of '<your project sequence>' in this file with the specific or wild-carded names of your sequences. Optionally, you can add custom labels in place of '<your custom label>'.
+Download *config.json*, and save it to '/your/project/directory/bids/code/preprocessing_dwi/helpers/dcm2bids/‘. Then, replace every instance of '<your project sequence>' in this file with the specific or wild-carded names of your sequences. Optionally, you can add custom labels in place of '<your custom label>'.
 
 ### Expert File (recon-all):
 
-Download *expertFile*, and save it to '/your/project/directory/bids/code/preprocessing_dwi/recon/‘.
+Download *expertFile*, and save it to '/your/project/directory/bids/code/preprocessing_dwi/helpers/recon/‘.
 
 ### Rician Noise Correction File:
 
-Download *rician_correct_mppca.sh*, and save it to '/your/project/directory/bids/code/preprocessing_dwi/noise_correct/‘.
+Download *rician_correct_mppca.sh*, and save it to '/your/project/directory/bids/code/preprocessing_dwi/helpers/noise_correct/‘.
 
 ___
 
