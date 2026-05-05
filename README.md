@@ -149,12 +149,14 @@ python diff_preproc_c2.py
 
 ## License
 
-To be updated
+
+This project is licensed under the Apache License 2.0. Please refer to the LICENSE file for details.
 
 ---
 
 ## Acknowledgements
 
+- FSL development team
 - FreeSurfer development team  
 - MRtrix3 contributors  
 - Miniforge / Conda-Forge community  
