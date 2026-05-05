@@ -1,0 +1,49 @@
+{
+  "descriptions": [
+    {
+      "datatype": "anat",
+      "suffix": "T1w",
+      "criteria": {
+        "SeriesDescription": "<your project sequence>"
+      }
+    },
+    {
+      "datatype": "anat",
+      "suffix": "FLAIR",
+      "criteria": {
+        "SeriesDescription": "<your project sequence>"
+      }
+    },
+    {
+      "datatype": "func",
+      "suffix": "bold",
+      "criteria": {
+        "SeriesDescription": "<your project sequence>"
+      }
+    },
+    {
+      "datatype": "fmap",
+      "suffix": "fmap",
+      "criteria": {
+        "SeriesDescription": "<your project sequence>"
+      }
+    },
+    {
+      "datatype": "dwi",
+      "suffix": "dwi",
+      "customLabels": "<your custom label>",
+      "criteria": {
+        "SeriesDescription": "<your project sequence>"
+      }
+    },
+    {
+      "datatype": "dwi",
+      "suffix": "dwi",
+      "customLabels": "<your custom label>",
+      "criteria": {
+        "SeriesDescription": "<your project sequence>"
+      }
+    },
+    {
+      "datatype": "dwi",
+      "suffix": "dwi",
