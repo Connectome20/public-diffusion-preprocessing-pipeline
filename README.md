@@ -11,6 +11,7 @@ ___
 | *MRtrix3* | 3.0.3 | Gibbs & MP-PCA modules |
 | *Miniforge* | Latest | For managing Conda environments |
 | *FSL* | 5.0.7 and 6.0+ | Provides *topup* & *eddy* |
+| CUDA | 10.2 | Necessary for GPU-enabled *eddy* |
 | Cluster access (SSH / VNC) & software install permission | N/A | N/A
 
 ___
