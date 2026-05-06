@@ -56,7 +56,7 @@ source ~/.bash_profile
 source ~/.cshrc
 ```
 
-### 2. Create / Activate a Python Environment
+### 2. Create and Activate a Python Environment
 
 Download Miniforge (64-bit Linux):
 ```bash
