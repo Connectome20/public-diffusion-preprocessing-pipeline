@@ -861,7 +861,7 @@ def append_all_commands_to_script():
     
     # Set scanner-specific GNC command
     if gnc_option.get() == "C2":
-        hhl_gnc_cmd = "gncunwarp.sh -i {base_dir}/{eddy_dir_suffix}/sub-{subject_id}_dwi_eddy.nii.gz -o {base_dir}/{gnc_dir_suffix}/sub-{subject_id}_dwi.nii.gz -g /your/project/directory/bids/code/preprocessing_dwi/gradnonlinunwarp/coil_file/coeff.grad"
+        hhl_gnc_cmd = "gncunwarp.sh -i {base_dir}/{eddy_dir_suffix}/sub-{subject_id}_dwi_eddy.nii.gz -o {base_dir}/{gnc_dir_suffix}/sub-{subject_id}_dwi.nii.gz -g /your/project/directory/bids/code/preprocessing_dwi/gradnonlinunwarp/gradient_coefficients/coeff.grad"
 
     # Commands for MPPCA_noise
     dwiextract_cmd = f"dwiextract {concat_dir}/*dwi.nii.gz -fslgrad {concat_dir}/*bvec {concat_dir}/*bval -bzero {concat_dir}/sub-{subject_id}_b0s.nii.gz"
