@@ -751,7 +751,7 @@ def MPPCA_noise():
         gnc_dir_suffix = "s7_denoise_degibbs_gnc" if selected_flow == "concat_denoise_degibbs" else "s7_gnc"
 
         if scanner_type == "C2":
-            hhl_gnc_cmd = "gncunwarp.sh -i {base_dir}/{eddy_dir_suffix}/sub-{subject_id}_dwi_eddy.nii.gz -o {base_dir}/{gnc_dir_suffix}/sub-{subject_id}_dwi.nii.gz -g /your/project/directory/bids/code/preprocessing_dwi/gradnonlinunwarp/coil_file/coeff.grad"
+            hhl_gnc_cmd = "gncunwarp.sh -i {base_dir}/{eddy_dir_suffix}/sub-{subject_id}_dwi_eddy.nii.gz -o {base_dir}/{gnc_dir_suffix}/sub-{subject_id}_dwi.nii.gz -g /your/project/directory/bids/code/preprocessing_dwi/gradnonlinunwarp/gradient_coefficients/coeff.grad"
         else:
             status_text.insert('end', f"Unknown scanner type: {scanner_type}. Skipping GNC processing.\n")
             return
