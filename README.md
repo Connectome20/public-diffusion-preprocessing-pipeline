@@ -103,7 +103,7 @@ Everything you need (i.e., the GUI and its dependencies) is bundled in the above
 
 ## Download the Pipeline
 
-Throughout these instructions, the script, and the helpers, you will see '/your/project/directory/' written into paths as a placeholder. Make sure to replace every instance of this with the actual path to your desired BIDS-format directory. (For example, if my project files are stored at '/autofs/cluster/connectome2/bids/', I would replace '/your/project/directory/' with '/autofs/cluster/connectome2/'.)
+Throughout these instructions, the script, and the helpers, you will see '/your/project/directory/' written into paths as a placeholder. Make sure to replace every instance of this with the actual path to your desired BIDS-format directory. (For example, if your project files are stored at '/autofs/cluster/diffusion_lab/bids/', I would replace '/your/project/directory/' with '/autofs/cluster/diffusion_lab/'.)
 
 ### Main Script:
 
