@@ -10,8 +10,8 @@ ___
 | *FreeSurfer* | 7.4.1 | For `recon-all` |
 | *MRtrix3* | 3.0.3 | Gibbs & MP-PCA modules |
 | *Miniforge* | Latest | For managing Conda environments |
-| *FSL* | 5.0.7 and 6.0+ | Provides *topup* & *eddy* |
-| CUDA | 10.2 | Necessary for GPU-enabled *eddy* |
+| *FSL* | 5.0.7 and 6.0+ | Provides `topup` & `eddy` |
+| CUDA | 10.2 | Necessary for GPU-enabled `eddy` |
 | Cluster access (SSH / VNC) & software install permission | N/A | N/A |
 
 ___
@@ -161,7 +161,7 @@ python diff_preproc_c2.py
 9. **GNC DWI** - Completes gradient non-linearity correction for DWI data.
 10. **Eddy-GNC Interpolation**
 11. **MP-PCA Noise Map** – Needed for SANDI model fitting.
-12. **Write Outputs** - Copies processed DWI outputs to `/your/project/directory/bids/derivatives/processed_dwi/`.
+12. **Write Outputs** - Copies processed DWI outputs to '/your/project/directory/bids/derivatives/processed_dwi/'.
 13. **Divide Volumes for SANDI fitting**
 14. **Divide Volumes for TractCaliber Fitting**
 15. **Run TractSeg**
